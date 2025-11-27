@@ -9,7 +9,7 @@ export const CardsComidas = () => {
         {
             id: 1,
             title: "Salmon",
-            image: "https://canalcocina.es/medias/_cache/zoom-7633d99ea9677004a4988e94e5d30aa0-920-518.jpg"
+            image: "https://www.nutrioli.com/wp-content/uploads/2024/05/una-guia-para-una-alimentacion-saludable.jpg"
         },
         {
             id: 2,
@@ -43,7 +43,7 @@ export const CardsComidas = () => {
                     <img src={item.image} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">{item.title}</h5>
-                        <a href="#" className="btn btn-primary">Go somewhere</a>
+                        <a href="#" className="btn btn-outline-warning ">Go somewhere</a>
                     </div>
                 </div>
             ))}

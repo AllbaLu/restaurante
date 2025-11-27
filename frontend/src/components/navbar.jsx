@@ -1,4 +1,4 @@
-
+import icon from "../assets/logo_whitefood.png"
 
 
 
@@ -10,12 +10,26 @@ export const Navbar = () => {
         <nav className="navbar navbar-inverse">
             <div className="container-fluid">
                 <div className="navbar-header mb-3">
-                    <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                        <span className="icon-bar"></span>
-                    </button>
-                    <a className="navbar-brand" href="#">Restaurant</a>
+                    <h1 className="d-flex justify-content-evenly">
+                        <div>
+                            <img
+                                    src={icon}
+                                    alt="mentalHealth"
+                                    width="100"
+                                    height="90"
+                                />
+                        </div>
+                        <div>
+                            <p className="navbar-brand" >Restaurant</p>
+                        </div>
+                        <div >
+                            {/* <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                                <span className="icon-bar"></span>
+                            </button> */}
+                        </div>
+                    </h1>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav">
