@@ -4,6 +4,7 @@ import { Footer } from "../components/Footer"
 import { Navbar } from "../components/navbar"
 import video from "../assets/istockphoto-video.mp4"
 import { Descripcion } from "../components/Descripcion"
+import { Eligenos } from "../components/Eligenos"
 
 
 
@@ -18,7 +19,7 @@ export const Home = () => {
                     <div className="mb-2 text-uppercase">
                         <div className="name p-3 ">
                             <h2 className="display-1" style={{ WebkitTextStrokeWidth: "thin" }}>
-                                <em><strong> Green Food</strong></em>
+                                <em><strong> Sabores de la Tierra</strong></em>
                             </h2>
                         </div>
                     </div>
@@ -27,6 +28,7 @@ export const Home = () => {
             
             <Descripcion />
             <CardsComidas />
+            <Eligenos />
             <Footer />
         </>
     )

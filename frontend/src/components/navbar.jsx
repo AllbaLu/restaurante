@@ -1,4 +1,4 @@
-import icon from "../assets/logo_whitefood.png"
+import icon from "../assets/sabores_logo.png"
 
 
 
@@ -15,12 +15,12 @@ export const Navbar = () => {
                             <img
                                     src={icon}
                                     alt="mentalHealth"
-                                    width="100"
-                                    height="90"
+                                    width="120"
+                                    height="100"
                                 />
                         </div>
                         <div>
-                            <p className="navbar-brand" >Restaurant</p>
+                            <h1 className="navbar-brand mt-4" style={{textDecorationLine: "underline"}}> Sabores de la Tierra</h1>
                         </div>
                         <div >
                             {/* <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
