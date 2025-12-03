@@ -11,7 +11,7 @@ import { Eligenos } from "../components/Eligenos"
 export const Home = () => {
     return (
         <>
-           <Navbar /> 
+            
             <div className="home position-relative h-100 d-flex flex-column justify-content-center">
                 <video controls autoPlay loop muted style={{width: "1200px", height: "100%"}} src={video} typeof="video/mp4" alt="restaurant" className="hero-background" />
 
@@ -26,10 +26,6 @@ export const Home = () => {
                 </div>
             </div>
             
-            <Descripcion />
-            <CardsComidas />
-            <Eligenos />
-            <Footer />
         </>
     )
 }
