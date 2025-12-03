@@ -5,7 +5,7 @@
 export const Eligenos = () => {
     return (
         <div className="container mb-5 mt-5">
-            <div className="card" style={{ width: "1200px" }}>
+            <div className="card" style={{ width: "1200px", border: "double" }}>
                 <div className="card-body">
                     <h5 className="card-title">¿Por qué elegirnos?</h5>
                     <p className="card-text">Porque cuidamos de ti en cada detalle. 

@@ -1,5 +1,11 @@
 body{
-  background: radial-gradient( rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  background: #eb59c7;
+  background: linear-gradient(44deg, rgba(235, 89, 199, 1) 4%, rgba(35, 35, 173, 1) 100%);
+  /*background: radial-gradient( rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+  */
+}
+.card{
+  background-color: transparent;
 }
 
 

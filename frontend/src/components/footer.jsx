@@ -14,7 +14,8 @@ export const Footer = () => {
                         <div className="col-md-8">
                             <div className="card-body">
                                 <h2 className="display-1" style={{ WebkitTextStrokeWidth: "thin" }}>
-                                    <em><strong> ¡Comer sano nunca fue tan fácil!</strong></em>
+                                    <em><strong> ¡Comer sano nunca fue tan fácil</strong></em>
+                                            <h1>en Talavera!</h1>   
                                 </h2>
                                 <div className="container mt-5">
                                     <div className="row g-5">

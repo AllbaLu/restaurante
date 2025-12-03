@@ -5,7 +5,7 @@
 export const Descripcion = () => {
     return (
         <div className="container mb-5">
-            <div className="card" style={{width: "1200px"}}>
+            <div className="card" style={{width: "1200px", border: "double"}}>
                 <div className="card-body">
                     <h5 className="card-title">Nuestra Filosofía</h5>
                     <p className="card-text">Creemos en la comida real: fresca, equilibrada y llena de sabor. Cocinamos pensando en tu bienestar y en hacerte la vida más fácil, sin renunciar al gusto.
